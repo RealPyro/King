@@ -24,9 +24,12 @@ body{
 	box-shadow: 0 0 1vw 0 rgba(0,0,0,.5), 0 0 1vw 0 rgba(0,0,0,.75);
 }
 .banner {
-	margin-top:10.8vh;
-	content: url(../images/banner.jpg);
-	width:80vw;
+	margin-top:10.81vh;
+	background-image: url(../images/banner.jpg);
+    background-size: 100%;
+    width: 100%;
+    padding-top: 31.201686577%;
+    height: 0;
 }
 
 .content {
@@ -77,7 +80,7 @@ p.description {
 	z-index:2;
 }
 .fakeul {
-	box-shadow: 0 .25vh .9vh -.25vh #000000;
+	box-shadow: 0 .2vh .6vh -.2vh #000000;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -86,7 +89,7 @@ p.description {
 	position: fixed;
 	width:80vw;
 	left: 50%;
-	height:10vh;
+	height:9.9vh;
 	transform: translateX(-50%);
 	z-index:1;
 }
@@ -113,11 +116,11 @@ li a {
     width:16vw;
     color:#FFFFFF;
     text-decoration:none;
-	padding: 1.5vh;
+	padding: 1.5vh 1vw 1.5vh 1vw;
 	height:3vh;
 	line-height:3vh;
 	line-height:3vh;
-   margin: 2vh .75vw;
+   margin: 2vh .7vw;
    border-radius:2vh;
    z-index:99;
    transition:background .08s linear;
@@ -136,6 +139,13 @@ a:hover
 	background: -webkit-gradient(linear, left top, left bottom, from(#E6B100), to(#b38900));
 	transition:background .08s linear;
 }
+.active {
+	color:#fff;
+	background: #468CCF;
+	background: -webkit-gradient(linear, left top, left bottom, from(#E6B100), to(#b38900));
+	transition:background .08s linear;
+}
+
 h1 {
 	font-family: SRI SURY WONGSE;
 	font-size:5vw;
